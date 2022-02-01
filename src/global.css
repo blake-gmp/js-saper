@@ -1,0 +1,93 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+#Contener
+{
+  width: 1220px;
+  margin: auto;
+  padding: auto;
+}
+
+#Menu
+{
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(84, 96, 107);
+    width: 1200px;
+    min-height: 150px;
+    letter-spacing: 5px;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    padding-top: 15px;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#Menu p
+{
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+#GameContener
+{
+    width: 1120px;
+    margin-top: 2px;
+    background-color: rgb(84, 96, 107);
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 600px;
+    border-radius: 5px;
+    padding: 40px;
+    text-align: center;
+}
+
+#Counter
+{
+    width: 1200px;
+    margin-top: 2px;
+    background-color: rgb(84, 96, 107);
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 120px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.field
+{
+    width: 40px;
+    min-height: 30px;
+    background-color: rgb(26, 26, 29);
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    text-align: center;
+    border: 1px solid rgb(38, 35, 54);
+    border-radius: 2px;
+    cursor: pointer;
+    filter: brightness(70%);
+    position:relative;
+}
+
+.field:hover
+{
+    border: 1px solid goldenrod;
+    filter: brightness(100%);
+}
